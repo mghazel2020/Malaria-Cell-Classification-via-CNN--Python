@@ -1,4 +1,4 @@
-# Malaria Cells Classification using Convolutional Neural Networks (CNN) imn Python
+# Malaria Cells Classification using Convolutional Neural Networks (CNN) in Python
 
 <img align="center" src="images/banner-02.jpg" width="1000" >
 
