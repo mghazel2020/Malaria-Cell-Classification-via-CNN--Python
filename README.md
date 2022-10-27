@@ -1,6 +1,6 @@
-# Malaria Cells Classification using Convolutional Neural Networks (CNN)
+# Malaria Cells Classification using Convolutional Neural Networks (CNN) imn Python
 
-<img align="center" src="images/banner-02.jpg" width="500" >
+<img align="center" src="images/banner-02.jpg" width="1000" >
 
 ## 1. Objective
 
@@ -13,7 +13,7 @@ Malaria remains a major burden on global health, especially in tropical countrie
 
 Recently, the application of machine and deep learning, for the classification of malarial cells has been explored and demonstrated to yield high accuracy [1-8]. In this work, we shall demonstrate such an application. In particular, we design, train and evaluate the performance of the convolutional network (CNN) to classify malarial cells.
 
-<img align="center" src="images/malaria-disease.jpg" width="10000" >
+<img align="center" src="images/malaria-disease.jpg" width="1000" >
 
 
 ## 3. Data
@@ -321,7 +321,7 @@ num_uninfected_images <span style="color:#808030; ">=</span> num_uninfected_imag
 Read <span style="color:#800000; font-weight:bold; ">and</span> formatted <span style="color:#008c00; ">5000</span> uninfected <span style="color:#400000; ">input</span> images
 </pre>
 
-<img align="center" src="images/parasitized-25-images.jpg" width="10000" >
+<img align="center" src="images/parasitized-25-images.jpg" width="1000" >
 
 ##### 4.2.2.2. Visualize some of the Uninfected input images
 
@@ -349,7 +349,7 @@ plt<span style="color:#808030; ">.</span>title<span style="color:#808030; ">(</s
     plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'off'</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img align="center" src="images/uninfected-25-images.jpg" width="10000" >
+<img align="center" src="images/uninfected-25-images.jpg" width="1000" >
 
 
 ### 4.3. Step 3: Split the dataset into training and testing data subsets
@@ -612,7 +612,7 @@ ax2<span style="color:#808030; ">.</span>set_title<span style="color:#808030; ">
 l2 <span style="color:#808030; ">=</span> ax2<span style="color:#808030; ">.</span>legend<span style="color:#808030; ">(</span>loc<span style="color:#808030; ">=</span><span style="color:#0000e6; ">"best"</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img align="center" src="images/performance-metrics.jpg" width="10000" >
+<img align="center" src="images/performance-metrics.jpg" width="1000" >
 
 #### 4.6.2. Overall Accuracy on test data subset:
 
@@ -674,13 +674,13 @@ We propose to explore the following related issues:
 ## 7. References
 
 1. National Library of Medicine. Malaria Datasets. Retrieved from: https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html
-2. Poostchi, M. et al. (April 1st, 2021). Image analysis and machine learning for detecting malaria. Retrieved from:  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840030/ (September 2th, 2022).
-3. Towards data science. (April 1st, 2021).  Deep learning to identify Malaria cells using CNN on Kaggle. Retrieved from:  https://towardsdatascience.com/deep-learning-to-identify-malaria-cells-using-cnn-on-kaggle-b9a987f55ea5 (September 2th, 2022).
-4. Pan, D. et al. (April 1st, 2021). Classification of Malaria-Infected Cells Using Deep Convolutional Neural Networks. Retrieved from:  https://www.intechopen.com/books/machine-learning-advanced-techniques-and-emerging-applications/classification-of-malaria-infected-cells-using-deep-convolutional-neural-networks (September 2th, 2022).
-5. Kaggle. (April 1st, 2021). Malaria Cell Images Classification - CNN. Retrieved from:  https://www.kaggle.com/mrudhuhas/malaria-cell-images-classification-cnn
-6. MARKTECHPOST. (April 1st, 2021). Recognizing Malaria Cells Using Keras Convolutional Neural Network(CNN). Retrieved from:  https://www.marktechpost.com/2019/12/09/recognizing-malaria-cells-using-keras-convolutional-neural-networkcnn/ (September 2th, 2022).
-87. Rahman, A. et all. (April 1st, 2021).  Improving Malaria Parasite Detection from Red Blood Cell using Deep Convolutional Neural Networks. Retrieved from:  https://arxiv.org/ftp/arxiv/papers/1907/1907.10418.pdf (September 2th, 2022).
-8. Pattanaik, P. (April 1st, 2021). Deep CNN Frameworks Comparison for Malaria Diagnosis. Retrieved from:  https://arxiv.org/ftp/arxiv/papers/1909/1909.02829.pdf (September 2th, 2022).
+2. Poostchi, M. et al. Image analysis and machine learning for detecting malaria. Retrieved from:  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840030/.
+3. Towards data science. Deep learning to identify Malaria cells using CNN on Kaggle. Retrieved from:  https://towardsdatascience.com/deep-learning-to-identify-malaria-cells-using-cnn-on-kaggle-b9a987f55ea5.
+4. Pan, D. et al. Classification of Malaria-Infected Cells Using Deep Convolutional Neural Networks. Retrieved from:  https://www.intechopen.com/books/machine-learning-advanced-techniques-and-emerging-applications/classification-of-malaria-infected-cells-using-deep-convolutional-neural-networks.
+5. Kaggle. Malaria Cell Images Classification - CNN. Retrieved from:  https://www.kaggle.com/mrudhuhas/malaria-cell-images-classification-cnn
+6. MARKTECHPOST. Recognizing Malaria Cells Using Keras Convolutional Neural Network(CNN). Retrieved from:  https://www.marktechpost.com/2019/12/09/recognizing-malaria-cells-using-keras-convolutional-neural-networkcnn/.
+87. Rahman, A. et all. Improving Malaria Parasite Detection from Red Blood Cell using Deep Convolutional Neural Networks. Retrieved from:  https://arxiv.org/ftp/arxiv/papers/1907/1907.10418.pdf.
+8. Pattanaik, P. Deep CNN Frameworks Comparison for Malaria Diagnosis. Retrieved from:  https://arxiv.org/ftp/arxiv/papers/1909/1909.02829.pdf.
 
 
 
